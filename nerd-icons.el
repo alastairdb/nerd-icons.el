@@ -1244,9 +1244,9 @@ Providing ARG-OVERRIDES will modify the creation of the icon."
                                  arg-overrides :initial-value '())))
     (cond
      ((equal web-mode-content-type "jsx")
-      (apply 'nerd-icons-devicon (append '("javascript") non-nil-args)))
+      (apply 'nerd-icons-devicon (append '("nf-dev-javascript") non-nil-args)))
      ((equal web-mode-content-type "javascript")
-      (apply 'nerd-icons-devicon (append '("javascript") non-nil-args)))
+      (apply 'nerd-icons-devicon (append '("nf-dev-javascript") non-nil-args)))
      ((equal web-mode-content-type "json")
       (apply 'nerd-icons-devicon (append '("nf-dev-less") non-nil-args)))
      ((equal web-mode-content-type "xml")
